@@ -1,0 +1,109 @@
+@media screen and (max-width: 790px){
+    section,footer{
+/*         border: 1px solid rgb(204, 204, 204); */
+        background-color:rgba(255, 255, 255, 0.83);
+    }
+}
+@media screen and (min-width: 790px){
+    section,footer{
+        width: 570px!important;
+        background-color:rgba(255, 255, 255, 0.83);
+    }   
+}
+@media screen and (min-width: 990px){
+    section,footer{
+        width: 870px!important;
+        background-color:rgba(255, 255, 255, 0.83);
+    }
+}
+@media screen and (min-width: 1190px){
+    section,footer{
+        width: 870px!important;
+        background-color:rgba(255, 255, 255, 0.83);
+    }
+}
+header{
+    height:60px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid #c1c1c1;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+.o{
+    transition: 1.2s;
+    width:40px; 
+    height:40px;
+    border: 1px solid rgb(204, 204, 204); 
+    border-radius:50px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.o:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+.comments-gravatar{
+    position: relative;
+    top: -15px;
+    left: 10px;
+}
+#logo{
+    transition: 1.2s;
+    width:90px; 
+    height:90px;
+    border: 1px solid rgb(204, 204, 204); 
+    border-radius:50px;
+    cursor: pointer;
+    overflow: hidden;
+}
+#logo:hover{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+}
+#backtop{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    font-size: 25px;
+    line-height: 35px;
+    right: -100px;
+    text-align: center;
+    bottom: 25px;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 1px 1px 2px #afafaf;
+    border: 1px solid #c1c1c1;
+    background-color: #ffffff;
+    transition: 500ms;
+    color: #536dfe;
+
+}
+#backtop::before{
+
+}
+/* 设置滚动条的样式 */
+::-webkit-scrollbar {
+width:8px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.3);
+border-left: 1px solid rgb(218, 218, 218); 
+border-radius:6px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+border-radius:8px;
+background:rgba(0,0,0,0.5);
+-webkit-box-shadow:inset006pxrgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+background:rgba(0,0,0,0.3);}
